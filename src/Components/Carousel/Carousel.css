@@ -1,0 +1,24 @@
+.slick-slide img {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    display: flex ;
+  }
+  
+  .slick-slide img:hover {
+    width: 81%;
+    height: 81%;
+    
+  }
+
+
+  .slick-track{
+    display: flex;
+  }
+  .slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 58px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;} 

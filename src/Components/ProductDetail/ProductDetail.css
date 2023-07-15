@@ -1,0 +1,207 @@
+.product-container {
+    display: flex;
+    justify-content: center;
+    color: #93959f;
+    --dark-black: #282c3f;
+}
+
+.product-detail {
+    max-width: 50%;
+
+}
+
+.pathankot {
+    display: flex;
+}
+
+.home-heading {
+    font-size: 9px;
+    font-weight: 100;
+
+}
+
+.product-name {
+    font-weight: 600;
+    color: var(--dark-black);
+}
+
+.product-name-desc-address {
+    margin-top: 19px;
+    margin-bottom: 40px;
+}
+
+.full-rattings {
+    border: 1px solid;
+    width: 100px;
+    float: right;
+    text-align: center;
+    margin-top: -50px;
+    height: 64px;
+    border-radius: 12px;
+    margin-right: 19px;
+}
+
+.flex {
+    font-size: 9px;
+    margin-top: 11px;
+}
+
+.span {
+    color: green;
+    font-weight: 600;
+}
+
+.product-desc {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.product-address {
+    font-size: 13px;
+}
+
+.product-time-price {
+    display: flex;
+    grid-gap: 16px;
+    gap: 16px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 18px;
+    color: var(--dark-black)
+}
+
+
+
+.search_img {
+    margin-left: 518px;
+    margin-top: 17px;
+    width: 19px;
+}
+
+.discount {
+    display: flex;
+    gap: 59px;
+    font-size: 12px;
+}
+
+.discount__first,
+.discount__second,
+.discount__third {
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .04);
+    min-width: 200px    ;
+    border: 1px solid #e9e9eb;
+}
+
+.discount__first-top,
+.discount__second-top,
+.discount__third-top {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.discount__first-bottom,
+.discount__second-bottom,
+.discount__third-bottom {
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.category {
+    font-weight: 900;
+    font-size: 19px;
+    color: var(--dark-black);
+}
+
+.name {
+    color: var(--dark-black);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.hr {
+    margin-top: 32px;
+}
+
+.price-product {
+    font-size: 10px;
+    margin-top: 9px;
+}
+
+.description {
+    font-size: 12px;
+    margin-top: 7px;
+
+}
+
+.dipped {
+    display: flex;
+}
+
+.img_url-image {
+    width: 118px;
+    height: 96px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.single-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.full-card {
+    overflow: hidden;
+}
+
+.veg-logo {
+    width: 17px;
+}
+
+
+.fssai-container {
+    background-color: #f1f1f6;
+    font-size: 12px;
+    --padding-rl: 30px;
+}
+
+.fssai-container__top {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 0 var(--padding-rl);
+    padding-top: 10px;
+}
+
+#fssai-container__top-image {
+    max-width: 58px;
+}
+
+.fssai-container__bottom {
+    padding: 10px var(--padding-rl);
+    padding-bottom: 7.525rem;
+}
+
+
+.fssai-container__bottom-location {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-top: 10px;
+}
+
+.fssai-contaianer__bottom-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.fssai-container__bottom-desc {
+    font-size: 16px;
+}

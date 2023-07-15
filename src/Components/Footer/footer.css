@@ -1,0 +1,88 @@
+
+.footer1,
+.footer2 {
+  display: flex;
+  padding-top: 30px;
+  background-color: black;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.footer1--heading {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  padding-left: 4px;
+  color: grey;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.footer--list {
+  position: relative;
+  bottom: 7px;
+}
+
+.footer--list-item {
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 7px;
+  font-weight: 500;
+  transition: all 0.1s ease-in
+}
+
+.footer--list-item:hover {
+  transform: scale(1.02);
+  color: #fff;
+}
+
+.footer1__images {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.footer2 {
+  gap: 40px;
+  padding-bottom: 20px;
+}
+
+.footer2--heading {
+  padding-bottom: 20px;
+  margin: 0;
+  margin-top: 15px;
+  padding-left: 4px;
+  color: grey;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.footer2--column {
+  padding-top: 52px;
+}
+
+.footer3 {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+}
+
+.footer3__socmed {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer3__socmed-img {
+  transition: all .3s ease-in;
+  cursor: pointer;
+}
+
+.footer3__socmed-img:hover {
+  transform: scale(1.2)
+}

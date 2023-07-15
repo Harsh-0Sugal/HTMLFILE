@@ -1,0 +1,28 @@
+.first_left_animation-heading {
+    opacity: 0;
+    font-size: 2em;
+  }
+  
+  .animate-bottom {
+    position: relative;
+    animation: animatebottom 3s;
+  }
+  
+  @keyframes animatebottom {
+    0% {
+      bottom: -30px;
+      opacity: 0;
+    }
+    25% {
+      bottom: 0px;
+      opacity: 1;
+    }
+    95% {
+      bottom: 0px;
+      opacity: 1;
+    }
+    100% {
+      bottom: 30px;
+      opacity: 0;
+    }
+  }
